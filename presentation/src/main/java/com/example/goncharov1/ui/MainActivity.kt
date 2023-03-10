@@ -1,7 +1,8 @@
-package com.example.goncharov1
+package com.example.goncharov1.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.goncharov1.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -16,4 +16,3 @@ rootProject.name = "Goncharov1"
 include ':presentation'
 include ':data'
 include ':domain'
-include ':domain'

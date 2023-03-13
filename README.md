@@ -1,1 +1,1 @@
-https://dog.ceo/dog-api/
+https://api.artic.edu/docs

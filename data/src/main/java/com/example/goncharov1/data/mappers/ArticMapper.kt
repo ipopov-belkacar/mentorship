@@ -6,7 +6,11 @@ import com.example.goncharov1.domain.entity.ArticEntity
 class ArticMapperImpl : ArticMapper {
     override fun toDomain(userModel: ArticModel): List<ArticEntity> {
         return userModel.data.map {
-            ArticEntity(id = it.id, title = it.title)
+            ArticEntity(
+                id = it.id,
+                title = it.title,
+                artistDisplay = it.artist_display
+            )
         }
     }
 }
